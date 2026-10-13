@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40" width="120" height="40" fill="none">
+  <path d="M10 20 C35 18, 85 22, 110 20" stroke="#8B5A3C" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+  <!-- Gentle watercolor-style leaves -->
+  <path d="M30 19 C33 11, 42 12, 40 19 C38 21, 33 21, 30 19 Z" fill="#8B5A3C" opacity="0.35"/>
+  <path d="M45 20 C48 27, 57 26, 55 20 C53 18, 48 18, 45 20 Z" fill="#8B5A3C" opacity="0.35"/>
+  <path d="M60 19 C63 10, 72 11, 70 19 C68 22, 63 21, 60 19 Z" fill="#8B5A3C" opacity="0.35"/>
+  <path d="M75 20 C78 28, 87 27, 85 20 C83 18, 78 18, 75 20 Z" fill="#8B5A3C" opacity="0.35"/>
+  <circle cx="60" cy="20" r="3" fill="#E8C9B8" stroke="#8B5A3C" stroke-width="1" opacity="0.8"/>
+</svg>

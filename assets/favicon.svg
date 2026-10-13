@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="pawGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5A3C"/>
+      <stop offset="100%" stop-color="#A9714B"/>
+    </linearGradient>
+    <linearGradient id="heartGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8C9B8"/>
+      <stop offset="100%" stop-color="#F2D8C9"/>
+    </linearGradient>
+  </defs>
+  <!-- Main pad shaped softly like a heart/pad -->
+  <circle cx="32" cy="32" r="30" fill="#FBF7F4" stroke="#E8C9B8" stroke-width="2"/>
+  <path d="M32 46 C25 46 22 40 22 36 C22 32 25 30 28 30 C30.5 30 32 32 32 32 C32 32 33.5 30 36 30 C39 30 42 32 42 36 C42 40 39 46 32 46 Z" fill="url(#pawGrad)"/>
+  <!-- Toe pads -->
+  <ellipse cx="20" cy="27" rx="4.5" ry="6" transform="rotate(-20 20 27)" fill="url(#pawGrad)"/>
+  <ellipse cx="27" cy="21" rx="4.5" ry="6.5" transform="rotate(-6 27 21)" fill="url(#pawGrad)"/>
+  <ellipse cx="37" cy="21" rx="4.5" ry="6.5" transform="rotate(6 37 21)" fill="url(#pawGrad)"/>
+  <ellipse cx="44" cy="27" rx="4.5" ry="6" transform="rotate(20 44 27)" fill="url(#pawGrad)"/>
+  <!-- Tiny heart accent -->
+  <path d="M32 38.5 C31 37.2 29.5 37.2 29 38 C28.3 38.9 28.7 40.2 32 42.2 C35.3 40.2 35.7 38.9 35 38 C34.5 37.2 33 37.2 32 38.5 Z" fill="#FFFDFB" opacity="0.85"/>
+</svg>

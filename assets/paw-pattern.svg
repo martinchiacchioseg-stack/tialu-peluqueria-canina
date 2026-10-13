@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
+  <defs>
+    <!-- Soft watercolor wash effect with warm earthy tones -->
+    <g id="single-paw" opacity="0.07" fill="#8B5A3C">
+      <ellipse cx="25" cy="30" rx="9" ry="8"/>
+      <circle cx="16" cy="18" r="3.2"/>
+      <circle cx="23" cy="13" r="3.6"/>
+      <circle cx="31" cy="14" r="3.6"/>
+      <circle cx="37" cy="20" r="3.2"/>
+    </g>
+    <g id="leaf-branch" opacity="0.06" stroke="#8B5A3C" fill="#8B5A3C" stroke-width="1.2" stroke-linecap="round">
+      <path d="M100 120 Q120 100 135 70" fill="none"/>
+      <path d="M112 105 Q125 102 120 95 Q114 97 112 105 Z"/>
+      <path d="M122 93 Q136 93 133 84 Q124 85 122 93 Z"/>
+      <path d="M105 112 Q95 105 98 97 Q104 100 105 112 Z"/>
+      <path d="M116 100 Q106 91 110 84 Q116 88 116 100 Z"/>
+    </g>
+  </defs>
+  <!-- Distributed organic paws and gentle leaves -->
+  <use href="#single-paw" transform="translate(10, 15) rotate(15 25 30) scale(0.9)"/>
+  <use href="#single-paw" transform="translate(90, 85) rotate(-25 25 30) scale(0.75)"/>
+  <use href="#single-paw" transform="translate(105, 10) rotate(35 25 30) scale(0.65)"/>
+  <use href="#leaf-branch" transform="translate(-20, -10) scale(0.85)"/>
+  <use href="#leaf-branch" transform="translate(40, 50) rotate(180 80 80) scale(0.6)"/>
+</svg>
