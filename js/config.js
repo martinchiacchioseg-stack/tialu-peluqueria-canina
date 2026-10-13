@@ -36,7 +36,15 @@ const CONFIG = {
     // Podés cambiar esta ruta si tenés una nueva ilustración en PNG, SVG o JPG de alta resolución
     heroIllustration: "assets/ilustracion-cachorro.jpg",
     cardFront: "assets/tarjeta-frente.jpg",
-    cardBack: "assets/tarjeta-dorso.jpg",
+  },
+
+  // --------------------------------------------------------------------------
+  // 2.1 CRÉDITO DE DESARROLLO (DISCRETO)
+  // --------------------------------------------------------------------------
+  developer: {
+    name: "Rolfi",
+    whatsappRaw: "5492241527357",
+    whatsappFormatted: "2241 527357",
   },
 
   // --------------------------------------------------------------------------

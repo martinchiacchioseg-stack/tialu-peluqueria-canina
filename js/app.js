@@ -139,37 +139,19 @@ function initFaqAccordion() {
 }
 
 /**
- * 5. Visualizador de la Tarjeta Conmemorativa Física (Frente y Dorso)
+ * 5. Visualizador de la Tarjeta de Presentación (Frente ampliado)
  */
 function initCardViewer() {
   const cardImg = document.getElementById("commemorative-card-img");
-  const btnFront = document.getElementById("btn-view-card-front");
-  const btnBack = document.getElementById("btn-view-card-back");
   const btnOpenModal = document.getElementById("btn-open-card-modal");
   const modalOverlay = document.getElementById("card-modal-overlay");
   const modalCloseBtn = document.getElementById("btn-close-card-modal");
   const modalImg = document.getElementById("modal-card-img");
 
-  if (!cardImg || !btnFront || !btnBack) return;
-
-  const showFront = () => {
+  if (cardImg && CONFIG.images && CONFIG.images.cardFront) {
     cardImg.src = CONFIG.images.cardFront;
-    cardImg.alt = "Frente de la tarjeta de presentación de Tía Lu y su legado";
-    btnFront.classList.add("active");
-    btnBack.classList.remove("active");
     if (modalImg) modalImg.src = CONFIG.images.cardFront;
-  };
-
-  const showBack = () => {
-    cardImg.src = CONFIG.images.cardBack;
-    cardImg.alt = "Dorso de la tarjeta conmemorativa con emotivo texto sobre Luciana Barnetche";
-    btnBack.classList.add("active");
-    btnFront.classList.remove("active");
-    if (modalImg) modalImg.src = CONFIG.images.cardBack;
-  };
-
-  btnFront.addEventListener("click", showFront);
-  btnBack.addEventListener("click", showBack);
+  }
 
   if (btnOpenModal && modalOverlay && modalCloseBtn) {
     btnOpenModal.addEventListener("click", () => {

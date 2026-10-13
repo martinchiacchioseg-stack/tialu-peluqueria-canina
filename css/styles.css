@@ -1444,6 +1444,29 @@ p {
   color: var(--color-text-light);
 }
 
+.developer-credit {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  opacity: 0.85;
+}
+
+.developer-credit strong {
+  color: var(--color-brown-dark);
+}
+
+.dev-wa-link {
+  color: var(--color-text-muted);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 600;
+  transition: color var(--transition-fast);
+}
+
+.dev-wa-link:hover, .dev-wa-link:focus-visible {
+  color: var(--color-brown-dark);
+}
+
 /* --------------------------------------------------------------------------
    13. BOTÓN FLOTANTE DE WHATSAPP
    -------------------------------------------------------------------------- */

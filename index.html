@@ -463,30 +463,24 @@
             </div>
           </div>
 
-          <!-- Muestra de la tarjeta conmemorativa real -->
+          <!-- Muestra de la tarjeta original (Frente recortado limpio) -->
           <div class="story-card-preview reveal-on-scroll">
             <div class="commemorative-card">
               <img 
                 id="commemorative-card-img" 
                 src="assets/tarjeta-frente.jpg" 
-                alt="Tarjeta conmemorativa de Tía Lu y su legado - Peluquería canina a domicilio"
+                alt="Tarjeta oficial de presentación de Tía Lu y su legado - Peluquería canina a domicilio"
                 width="400" 
-                height="530"
+                height="560"
                 loading="lazy"
               >
-              <p class="card-caption">Tarjeta física original de presentación y recordatorio de turnos</p>
+              <p class="card-caption">Tarjeta física de presentación</p>
             </div>
 
-            <!-- Botones interactivos para alternar entre frente y dorso de la tarjeta -->
+            <!-- Botón para ver en tamaño completo -->
             <div class="card-toggle-buttons">
-              <button type="button" id="btn-view-card-front" class="card-toggle-btn active">
-                Ver Frente
-              </button>
-              <button type="button" id="btn-view-card-back" class="card-toggle-btn">
-                Ver Dorso con Texto
-              </button>
-              <button type="button" id="btn-open-card-modal" class="card-toggle-btn" style="background-color: var(--color-peach-light);">
-                🔍 Ampliar
+              <button type="button" id="btn-open-card-modal" class="card-toggle-btn" style="background-color: var(--color-peach-light); padding: 8px 22px; font-weight: 700;">
+                🔍 Ver tarjeta completa
               </button>
             </div>
           </div>
@@ -899,6 +893,12 @@
       <div class="footer-copy">
         <p>&copy; 2026 Tía Lu y su legado · Peluquería Canina a Domicilio. Todos los derechos reservados.</p>
         <p style="margin-top: 4px; font-size: 0.8rem;">Hecho con infinito amor por los animales 🐾</p>
+        <p class="developer-credit">
+          Desarrollo web by <strong>Rolfi</strong> · 
+          <a href="https://wa.me/5492241527357?text=Hola%20Rolfi%2C%20vi%20la%20p%C3%A1gina%20de%20T%C3%ADa%20Lu%20y%20su%20legado%20y%20quer%C3%ADa%20hacerte%20una%20consulta." target="_blank" rel="noopener noreferrer" class="dev-wa-link">
+            WhatsApp 2241 527357
+          </a>
+        </p>
       </div>
     </div>
   </footer>
@@ -914,14 +914,14 @@
   </a>
 
   <!-- ========================================================================
-       MODAL: VISOR DE TARJETA CONMEMORATIVA ORIGINAL
+       MODAL: VISOR DE TARJETA ORIGINAL
        ======================================================================== -->
   <div id="card-modal-overlay" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-card-title">
     <div class="modal-content-box">
       <button type="button" id="btn-close-card-modal" class="modal-close-btn" aria-label="Cerrar modal">&times;</button>
-      <h3 id="modal-card-title" style="font-size: 1.25rem; color: var(--color-brown-primary);">Tarjeta original de Luciana Barnetche</h3>
-      <img id="modal-card-img" src="assets/tarjeta-frente.jpg" alt="Tarjeta original ampliada" style="border-radius: var(--radius-md); max-height: 70vh; object-fit: contain;">
-      <p style="font-size: 0.85rem; color: var(--color-text-muted); text-align: center;">Podés alternar entre el frente y el dorso con los botones de la sección Nuestra Historia.</p>
+      <h3 id="modal-card-title" style="font-size: 1.25rem; color: var(--color-brown-primary);">Tarjeta oficial de Tía Lu y su legado</h3>
+      <img id="modal-card-img" src="assets/tarjeta-frente.jpg" alt="Tarjeta oficial de presentación ampliada" style="border-radius: var(--radius-md); max-height: 70vh; object-fit: contain;">
+      <p style="font-size: 0.85rem; color: var(--color-text-muted); text-align: center;">Peluquería canina a domicilio · En memoria de Luciana Barnetche</p>
     </div>
   </div>
 
