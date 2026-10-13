@@ -2,7 +2,8 @@
 
 Landing page profesional, responsive (mobile-first), rápida y accesible para **"Tía Lu y su legado"**, peluquería canina a domicilio en homenaje a **Luciana Barnetche**.
 
-🌐 **Sitio publicado y en vivo:** [https://martinchiacchioseg-stack.github.io/tialu-peluqueria-canina/](https://martinchiacchioseg-stack.github.io/tialu-peluqueria-canina/)  
+🌐 **Sitio en vivo (Vercel):** [https://tialu-peluqueria-canina.vercel.app](https://tialu-peluqueria-canina.vercel.app)  
+🌐 **Mirror alternativo (GitHub Pages):** [https://martinchiacchioseg-stack.github.io/tialu-peluqueria-canina/](https://martinchiacchioseg-stack.github.io/tialu-peluqueria-canina/)  
 📦 **Repositorio en GitHub:** [https://github.com/martinchiacchioseg-stack/tialu-peluqueria-canina](https://github.com/martinchiacchioseg-stack/tialu-peluqueria-canina)
 
 ---
